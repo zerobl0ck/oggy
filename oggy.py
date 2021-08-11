@@ -136,6 +136,9 @@ def whois(data):
 def scan(list_):
     def print_text():
         print(response.text)
+        output = open("output.txt", "w")
+        print(response.text, file=output)
+        print("\nOutput saved in output.txt file")
     for i in list_:
         try:
             if sys.argv[1] == "-h" or sys.argv[1] == "--help":
