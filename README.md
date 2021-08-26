@@ -31,7 +31,7 @@ Find all the pages of a website. It will extract links from the page.
 This tool will provide you whois records of the website.
 
 ```
-usage: oggy.py [-h] [dns] [sub] [findshareddns] [geoip] [reverseip] [httpheader] [pagelinks] 
+usage: python3 oggy.py [-h] [dns] [sub] [findshareddns] [geoip] [reverseip] [httpheader] [pagelinks] 
                [whois]
 
 positional arguments:
